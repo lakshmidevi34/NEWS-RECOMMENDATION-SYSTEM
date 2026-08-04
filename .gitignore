@@ -1,0 +1,17 @@
+# Ignore large model pickles
+news-recommender/news-recommender/models/
+
+# Ignore virtual environments
+news-recommender/news-recommender/venv/
+news-recommender/news-recommender/.venv/
+
+# Ignore ZIP archives and office files
+*.zip
+*.docx
+*.pptx
+
+# Python cache & checkpoint files
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
